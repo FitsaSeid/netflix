@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.banner {
+    height: 100%;
+    object-fit: contain;
+    color: #fff;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.banner-meta-wrapper {
+    padding-top: 12%;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.banner-title {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.banner-buttons button {
+    margin: 10px 20px 20px 0;
+    font-size: 20px;
+    padding: 8px 30px;
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.banner-description {
+    font-size: 14px;
+    width: 50%;
+    font-weight: 600;
+}
+
+.banner-fade {
+    height: 7.4rem;
+    background-image: linear-gradient(180deg,
+            transparent,
+            rgb(37, 37, 37, 0.6),
+            #111);
+}
